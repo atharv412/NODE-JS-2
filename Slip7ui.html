@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Append File Content</title>
+</head>
+<body>
+  <h2>Append Content of One File to Another</h2>
+  <form action="http://localhost:3000/append-files" method="POST">
+    <label for="file1">Source File (file1):</label><br>
+    <input type="text" id="file1" name="filename1" required><br><br>
+
+    <label for="file2">Destination File (file2):</label><br>
+    <input type="text" id="file2" name="filename2" required><br><br>
+
+    <button type="submit">Append</button>
+  </form>
+</body>
+</html>
